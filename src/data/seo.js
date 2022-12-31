@@ -28,6 +28,13 @@ const SEO = [
 	},
 
 	{
+		page: "experience",
+		description:
+			"Explore my professional journey and experience in the tech industry. From internships to full-time positions, see how I've grown and contributed to various projects.",
+		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith", "Experience", "Work History", "Professional Journey"],
+	},
+
+	{
 		page: "contact",
 		description:
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",

@@ -2,6 +2,7 @@ import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
+import myExperiences from "../../data/experiences";
 
 import "./styles/works.css";
 
@@ -13,31 +14,20 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
-						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
-							<div className="work-subtitle">
-								Software Engineer
+						{myExperiences.map((experience, index) => (
+							<div className="work" key={index}>
+								<div className="work-title">{experience().company}</div>
+								<div className="work-subtitle">
+									{experience().title}
+								</div>
+								<div className="work-duration">{experience().date}</div>
+								<div className="work-skills">
+									{experience().skills.map((skill, skillIndex) => (
+										<span key={skillIndex} className="work-skill">{skill}</span>
+									))}
+								</div>
 							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
-
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
+						))}
 					</div>
 				}
 			/>

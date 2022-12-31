@@ -1,10 +1,10 @@
-.articles-logo-container {
+.experience-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.articles-logo {
+.experience-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -13,7 +13,7 @@
 	top: 4vh;
 }
 
-.articles-main-container {
+.experience-main-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -21,33 +21,32 @@
 	padding-top: 60px;
 }
 
-.articles-container {
+.experience-container {
 	display: flex;
 	flex-direction: column;
 }
 
-.articles-wrapper {
+.experience-wrapper {
 	padding-top: 0px;
 	padding-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 }
 
-.articles-article {
+.experience-item {
 	padding-top: 0px;
 	padding-left: 35px;
-	padding-right: 35px;
 	padding-bottom: 20px;
 	border-left: 2px solid #f4f4f5;
 	width: 100%;
 }
 
 @media (max-width: 1024px) {
-	.articles-title {
+	.experience-title {
 		width: 0% !important;
 	}
 
-	.articles-subtitle {
+	.experience-subtitle {
 		width: 0% !important;
 	}
-}
+} 

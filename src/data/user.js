@@ -3,11 +3,9 @@ const INFO = {
 		title: "Phan Nguyen Phuong's Portfolio (copied from reactfolio by Tharindu N.)",
 		name: "Phan Nguyen Phuong",
 		email: "liophuong81@gmail.com",
-		logo: "../logo.png",
 	},
 
 	socials: {
-
 		github: "https://github.com/haiimphuongg",
 		linkedin: "https://linkedin.com/in/haiimphuong",
 	},
@@ -18,64 +16,31 @@ const INFO = {
 			"I am a final year student at HCMUS, majoring in Artificial Intelligence. I am passionate about learning Data and AI, and I am always looking for new challenges and opportunities to grow in this field. Currently, I am focusing on Natural Language Processing in both research and practice.",
 	},
 
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+		title: "Where I store a few small articles to share my limited knowledge",
 	},
 
-	projects: [
-		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+	experience: {
+		title: "All my memorable experiences that I have been through",
+	},
+	
+	projects: {
+		title: "Something I've made during my school time and free time",
+	},
+	
+	contact: {
+		title: "Let's Get in Touch: Ways to Connect with Me",
+		description: `
+		Hi there! 
+		I'm really happy to connect with everyone who drops by this page. This little space means a lot to me, and it's been built with a lot of love and care. If you have any feedback, questions, or just feel like saying hi – please don't hesitate to reach out!
 
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		You can contact me directly via email at: liophuong81@gmail.com
+		I'll do my best to get back to you as soon as I can.
 
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-	],
+		Thanks so much for stopping by. I hope we'll have the chance to connect and share something meaningful together 🌿
+		`
+	},
 };
 
 export default INFO;

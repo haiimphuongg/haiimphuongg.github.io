@@ -18,6 +18,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import { formatWithLineBreaks } from "../utils/textFormatting";
 
 import "./styles/homepage.css";
 
@@ -94,7 +95,7 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									{formatWithLineBreaks(INFO.homepage.description)}
 								</div>
 							</div>
 
