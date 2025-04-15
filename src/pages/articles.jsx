@@ -61,6 +61,7 @@ const Articles = () => {
 											title={article().title}
 											description={article().description}
 											link={"/article/" + (index + 1)}
+											notionUrl={article().notionUrl}
 										/>
 									</div>
 								))}

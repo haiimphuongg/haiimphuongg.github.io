@@ -1,24 +1,21 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Phan Nguyen Phuong's Portfolio (copied from reactfolio by Tharindu N.)",
+		name: "Phan Nguyen Phuong",
+		email: "liophuong81@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+
+		github: "https://github.com/haiimphuongg",
+		linkedin: "https://linkedin.com/in/haiimphuong",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Enthusiastic about learning Data and AI",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a final year student at HCMUS, majoring in Artificial Intelligence. I am passionate about learning Data and AI, and I am always looking for new challenges and opportunities to grow in this field. Currently, I am focusing on Natural Language Processing in both research and practice.",
 	},
 
 	about: {

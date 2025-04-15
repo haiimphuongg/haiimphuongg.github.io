@@ -48,11 +48,27 @@
 	line-height: 25px;
 }
 
-.article-link {
+.article-links {
+	display: flex;
+	gap: 20px;
 	padding-top: 10px;
+}
+
+.article-link {
 	font-size: 14px;
 	color: var(--link-color);
 	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.notion-link {
+	color: var(--primary-color);
+}
+
+.notion-link:hover {
+	text-decoration: underline;
 }
 
 @media (max-width: 1024px) {

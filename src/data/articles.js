@@ -2,10 +2,10 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "Jan 2025",
+		title: "Từ RNN đến Transformers (Phần 1: RNN)",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Giới thiệu về lịch sử ra đời, kiến trúc của RNN và một số ví dụ về ứng dụng của nó trong lĩnh vực NLP.",
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"Tharindu",
@@ -16,7 +16,6 @@ function article_1() {
 				.article-content {
 					display: flex;
 					flex-direction: column;
-					align-items: center;
 				}
 
 				.randImage {
@@ -24,18 +23,8 @@ function article_1() {
 					outline: 2px solid red;
 				}
 				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+
+		notionUrl: "https://shadow-toy-1d9.notion.site/T-RNN-n-Transformers-Ph-n-1-RNN-117a3a55c5418051b245d8480cf3c2a9?pvs=74"
 	};
 }
 
@@ -52,11 +41,8 @@ function article_2() {
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
-		body: (
-			<React.Fragment>
-				<h1>Content of article 2</h1>
-			</React.Fragment>
-		),
+
+		notionUrl: "https://shadow-toy-1d9.notion.site/T-RNN-n-Transformers-Ph-n-1-RNN-117a3a55c5418051b245d8480cf3c2a9", // Thay thế bằng URL Notion thực tế
 	};
 }
 
