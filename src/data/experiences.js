@@ -23,7 +23,7 @@ function experience_1() {
 
 function experience_2() {
 	return {
-		date: "Oct 2024 - Nov 2024",
+		date: "Sep 2024 - Dec 2024",
 		title: "AI Chatbot Engineer Intern",
 		company: "OPSWAT",
 		description:
