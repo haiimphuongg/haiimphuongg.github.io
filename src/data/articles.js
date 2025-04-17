@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "Mar 2024",
-		title: "Từ RNN đến Transformers (Phần 1: RNN)",
+		title: "Từ RNN đến Transformers - Phần 1: Recurrent Neural Network (RNN)",
 		description:
 			"Giới thiệu về lịch sử ra đời, kiến trúc của RNN và một số ví dụ về ứng dụng của nó trong lĩnh vực NLP.",
 		keywords: [
@@ -31,7 +31,7 @@ function article_1() {
 function article_2() {
 	return {
 		date: "Apr 2024",
-		title: "Từ RNN đến Transformers (Phần 2: LSTM - Một bước tiến lớn từ RNN)",
+		title: "Từ RNN đến Transformers - Phần 2: Long Short Term Memory (LSTM)",
 		description:
 			"Bài viết này sẽ giới thiệu một số cải tiến của RNN, đặc biệt là LSTM, giúp giải quyết vấn đề về gradient vanishing/exploding và không thể xử lý được các bài toán có độ dài chuỗi lớn.",
 		style: ``,
@@ -50,7 +50,7 @@ function article_2() {
 function article_3() {
 	return {
 		date: "Apr 2024",
-		title: "Từ RNN đến Transformers (Phần 3: Bidirectional RNN)",
+		title: "Từ RNN đến Transformers - Phần 3: Bidirectional Recurrent Neural Network (BiRNN)",
 		description:
 			"Giới thiệu về Bidirectional RNN, một cải tiến của RNN để cải thiện việc hiểu context của chuỗi dữ liệu thông qua cơ chế học hai chiều.",
 		style: ``,
@@ -67,6 +67,26 @@ function article_3() {
 		notionUrl: "https://shadow-toy-1d9.notion.site/T-RNN-n-Transformers-Ph-n-3-Bidirectional-RNN-1d7a3a55c54180c2b8d1ff962c3923fd?pvs=4", 
 	};
 }
-const myArticles = [article_1, article_2, article_3];
+
+function article_4() {
+	return {
+		date: "Apr 2024",
+		title: "Từ RNN đến Transformers - Phần 4: Attention Mechanism",
+		description:
+			"Giới thiệu về Attention Mechanism, một bước đột phá mạnh mẽ trong NLP, giúp mô hình tập trung vào các phần quan trọng của dữ liệu.",
+		style: ``,
+		keywords: [
+			"Attention",
+			"Transformers",
+			"BiRNN",
+			"NLP",
+			"Machine Learning",
+		],
+
+		notionUrl: "https://shadow-toy-1d9.notion.site/T-RNN-n-transformers-Ph-n-4-Attentention-Machenism-1d7a3a55c5418086bb8ffef6173eab65", 
+	};
+}
+
+const myArticles = [article_1, article_2, article_3, article_4];
 
 export default myArticles;

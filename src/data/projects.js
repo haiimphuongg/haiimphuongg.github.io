@@ -54,7 +54,7 @@ function project_4() {
 			"Built UNet and UNet Attention architectures from scratch for semantic segmentation",
 			"Achieved mean IoU of 0.74 on CityScapes dataset"
 		],
-		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 		linkText: "View Project",
 		link: "https://github.com/haiimphuongg/cityscape-semantic-segmentation",
 	};
